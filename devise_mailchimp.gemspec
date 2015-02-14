@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   {
-    'rails'  => ['>= 3.0.0', '< 3.3'],
+    'rails',
     'devise' => '>= 1.4.8',
     'hominid' => "~> 3.0.2"
   }.each do |lib, version|
